@@ -1,10 +1,12 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Cookies from "js-cookie";
 import "./NavbarStyle.css";
 
 const Navbar = (props) => {
+  const navigate = useNavigate();
   const { Login, SetLogin } = props;
   const logoutfn = () => {
+    navigate("/LogIn");
     SetLogin(false);
     Cookies.remove("Jwt");
   };
@@ -25,11 +27,11 @@ const Navbar = (props) => {
             </Link>
           </span>
         ) : (
-          <>
-            <Link className="login_nav" onClick={logoutfn} to="/LogIn">
+          <div>
+            <button className="logout_nav" onClick={logoutfn}>
               <h4>Log out</h4>
-            </Link>
-          </>
+            </button>
+          </div>
         )}
       </span>
     </header>
