@@ -1,7 +1,7 @@
 {
   "name": "studentinfoapp",
   "version": "0.1.0",
-  "homepage": "https://supreethreddy.github.io/info-zphs",
+  "homepage": "https://scintillating-licorice-35d910.netlify.app",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free-solid": "^5.0.13",
