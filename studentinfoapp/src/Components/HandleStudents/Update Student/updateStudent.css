@@ -1,0 +1,127 @@
+.update_student_button,
+.update_student_Details_button,
+.update_Cancel_button {
+  cursor: pointer;
+  border: 0;
+  border-radius: 4px;
+  font-weight: 600;
+  margin-top: -40px;
+  padding: 7px 32px; /* nee to change this to flexable */
+  color: rgb(104, 85, 224);
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(104, 85, 224, 1);
+  box-shadow: 0 0 20px rgba(104, 85, 224, 0.2);
+  transition: 0.4s;
+}
+.update_student_Details_button {
+  margin-top: 10px;
+  padding: 7px 115px;
+}
+
+.update_Cancel_button {
+  margin-top: 10px;
+  padding: 7px 140px;
+  color: rgb(255, 94, 94);
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(255, 94, 94, 1);
+}
+.update_student_button:hover,
+.update_student_Details_button:hover,
+.update_Cancel_button:hover {
+  color: white;
+  box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
+  background-color: rgba(104, 85, 224, 1);
+}
+.update_Cancel_button:hover {
+  color: white;
+  box-shadow: 0 0 20px rgba(255, 94, 94, 0.6);
+  background-color: rgba(255, 94, 94, 1);
+}
+
+.label_flex_updateStudent,
+.Update_and_cancel_flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Update_and_cancel_flex {
+  justify-content: flex-start;
+  /* margin-left: -180px; */
+  gap: 120px;
+}
+
+.label_flex_updateStudent {
+  gap: 30px;
+  margin-left: -140px;
+}
+.get_updatedetails_heading {
+  margin-top: 100px;
+}
+
+.Update_Student_name,
+.Update_FatherName {
+  margin-right: 20px;
+}
+.Update_Aadharno {
+  margin-left: -12px;
+}
+.update_student_name,
+.update_student_caste_system,
+.update_student_details {
+  font-weight: 600;
+  background: -webkit-linear-gradient(#0099ff, #66ff66);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.update_student_mainheading {
+  color: #1496bb;
+}
+
+.update_student_label,
+.update_classno_medium,
+.student_nameflex_div,
+.update_father_and_dob,
+.update_rollno_jdate,
+.update_flex_caste,
+.update_flex_mtounge_religion,
+.update_button_div,
+.update_admno_aadharno {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.update_student_label {
+  gap: 20px;
+}
+.update_surname_label {
+  gap: 46px;
+}
+.update_fathername_label {
+  gap: 30px;
+}
+.update_aadhar_label {
+  gap: 48px;
+}
+.update_rollno_label {
+  gap: 76px;
+}
+.update_medium_label {
+  gap: 55px;
+}
+.update_classno_label {
+  gap: 60px;
+}
+.update_caste_label {
+  gap: 94px;
+}
+.update_religion_label {
+  gap: 40px;
+}
+.update_classno_medium,
+.update_rollno_jdate,
+.update_flex_caste,
+.update_flex_mtounge_religion,
+.update_admno_aadharno {
+  gap: 50px;
+}

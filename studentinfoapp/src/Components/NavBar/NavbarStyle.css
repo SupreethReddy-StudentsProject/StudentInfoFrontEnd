@@ -1,0 +1,12 @@
+.navbar_main {
+  background-color: rgba(104, 85, 224, 1);
+}
+.login_nav .signup_nav {
+  color: aliceblue;
+}
+.Home_nav {
+  margin-left: 30px;
+}
+.login_nav {
+  margin-right: 40px;
+}

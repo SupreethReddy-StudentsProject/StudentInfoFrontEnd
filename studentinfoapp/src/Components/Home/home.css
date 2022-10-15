@@ -1,0 +1,166 @@
+/* @import url("https://fonts.googleapis.com/css2?family=zilla+slab:wght@300&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.homecomponent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 85vh;
+  overflow: hidden;
+}
+
+ul {
+  position: relative;
+}
+
+ul li {
+  list-style: none;
+  text-align: center;
+}
+
+ul li a.home {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 3em;
+}
+ul li a.home:hover {
+  color: rgb(100, 149, 237);
+  text-decoration: none;
+  font-size: 3em;
+}
+
+ul li a::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  border-radius: 50%;
+  z-index: -1;
+  opacity: 0;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 900px;
+  transition: letter-spacing 0.5s, left 0.5s;
+}
+
+ul li a:hover::after {
+  content: attr(data-text);
+  opacity: 0.9;
+  left: 50%;
+  letter-spacing: 40px;
+  width: auto;
+  height: auto;
+}
+
+.signup_Home,
+.Login_Home {
+  color: rgb(108, 108, 108);
+}
+
+.home_button {
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+ul li:nth-child(6n + 1) a::after {
+  color: rgba(0, 255, 0, 0.3);
+}
+ul li:nth-child(6n + 2) a::after {
+  color: rgba(0, 100, 100, 0.3);
+}
+ul li:nth-child(6n + 3) a::after {
+  color: rgba(153, 102, 203, 0.3);
+}
+ul li:nth-child(6n + 4) a::after {
+  color: rgba(255, 0, 0, 0.3);
+}
+.outercard {
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+}
+.card {
+  margin-top: 80px;
+  margin-left: 100px;
+  height: 60px;
+  width: 140px;
+  border-radius: 10px;
+  border: none;
+  /* box-shadow: 0px 0px 4px 4px rgba(12, 12, 12, 0.2); */
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  transition: 0.3s;
+}
+.signup_card:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+.login_card:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+.signup_Home:hover {
+  color: rgb(0, 145, 228);
+}
+
+.Login_Home:hover {
+  color: rgb(0, 145, 228);
+}
+
+.Login_Home {
+  padding: 15px 26px;
+  text-decoration: none;
+  font-size: 10px;
+}
+.signup_Home {
+  padding: 16px 17px;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.image_div {
+  position: relative;
+}
+.home_image {
+  float: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: -250px;
+  margin-top: 60px;
+  z-index: -1;
+}
+.Main_Heading {
+  font-size: 50px;
+  margin-left: -150px;
+  margin-top: 40px;
+  max-width: 1200px;
+  color: rgb(108, 108, 108);
+}
+.Side_notes {
+  font-size: 20px;
+  font-family: "webfontregular", sans-serif;
+  margin-top: 40px;
+  margin-left: -150px;
+  max-width: 1200px;
+  color: #7e7f8f;
+}
+.welcome {
+  max-width: 1200px;
+}
+.homemenu:hover {
+  color: rgba(104, 85, 224, 1);
+}

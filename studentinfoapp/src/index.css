@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* layout */
+:root {
+  --primary: #1aac83;
+  --error: #e7195a;
+}
+body {
+  background: #f1f1f1;
+  margin: 0;
+  font-family: "Poppins";
+}
+header {
+  background: #fff;
+}
+header .container {
+  max-width: 100%;  
+  margin: 0;
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+header a:hover {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
+.route {
+  max-width: 1400px;
+  padding: 20px 0px;
+  margin: 0 auto;
+}
+.loginandsignup {
+  display: inline-flex;
+  gap: 35px;
+}
+.home {
+  text-decoration: none;
+  color: black;
+}
+.Cancel_button {
+  margin-left: 40px;
+}

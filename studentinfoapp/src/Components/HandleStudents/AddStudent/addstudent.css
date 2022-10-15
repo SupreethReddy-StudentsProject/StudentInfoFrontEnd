@@ -1,0 +1,112 @@
+.add_student_label,
+.add_classno_medium,
+.student_nameflex_div,
+.add_father_and_dob,
+.add_rollno_jdate,
+.add_flex_caste,
+.add_flex_mtounge_religion,
+.add_button_div,
+.add_admno_aadharno {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.error_flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.add_student_label {
+  gap: 20px;
+}
+.add_surname_label {
+  gap: 46px;
+}
+.add_fathername_label {
+  gap: 30px;
+}
+.add_aadhar_label {
+  gap: 48px;
+}
+.add_rollno_label {
+  gap: 76px;
+}
+.add_medium_label {
+  gap: 55px;
+}
+.add_classno_label {
+  gap: 60px;
+}
+.add_caste_label {
+  gap: 94px;
+}
+.add_religion_label {
+  gap: 40px;
+}
+.add_classno_medium,
+.add_rollno_jdate,
+.add_flex_caste,
+.add_flex_mtounge_religion,
+.add_admno_aadharno {
+  gap: 50px;
+}
+.Add_Aadharno {
+  margin-left: -12px;
+}
+.Add_Student_name,
+.Add_FatherName {
+  margin-right: 20px;
+}
+
+.Addstudents_btn {
+  cursor: pointer;
+  border: 0;
+  border-radius: 4px;
+  font-weight: 600;
+  padding: 9px 390px; /* nee to change this to flexable */
+  color: rgb(104, 85, 224);
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(104, 85, 224, 1);
+  box-shadow: 0 0 20px rgba(104, 85, 224, 0.2);
+  transition: 0.4s;
+}
+.Addstudents_btn:hover {
+  color: white;
+  box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
+  background-color: rgba(104, 85, 224, 1);
+}
+.add_student_name,
+.add_student_caste_system,
+.add_student_details {
+  font-weight: 600;
+  background: -webkit-linear-gradient(#0099ff, #66ff66);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.add_student_mainheading {
+  color: #50D050;
+}
+
+.add_error {
+  color: #db2269;
+  font-size: 0.825em;
+  font-weight: 600;
+  margin-right: 300px;
+}
+.add_error_first {
+  color: #db2269;
+  font-size: 0.825em;
+  font-weight: 600;
+  margin-left: 150px;
+}
+.add_Apierror {
+  color: #db2269;
+  font-weight: 600;
+  font-size: 1em;
+}
+.font_icon {
+  font-family: "FontAwesome" !important;
+  color: red;
+  size: 36px;
+}

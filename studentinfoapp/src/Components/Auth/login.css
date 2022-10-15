@@ -1,0 +1,58 @@
+.label_username,
+.label_pass,
+.error,
+.login_button_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.username_login,
+.password_login {
+  margin-left: 20px;
+  width: 25%;
+  padding: 8px;
+}
+.label_username,
+.label_pass{
+  font-weight: 500;
+}
+.password_login {
+  margin-left: 25px;
+}
+.Login_heading {
+  padding-top: 50px;
+}
+
+.Login_button {
+  cursor: pointer;
+  border: 0;
+  border-radius: 4px;
+  font-weight: 600;
+  margin-left: 100px;
+  width: 200px;
+  padding: 10px 0;
+  color: rgb(104, 85, 224);
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(104, 85, 224, 1);
+  box-shadow: 0 0 20px rgba(104, 85, 224, 0.2);
+  transition: 0.4s;
+}
+
+.Login_button:hover {
+  color: white;
+  box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
+  background-color: rgba(104, 85, 224, 1);
+}
+.error {
+  color: #db2269;
+  font-size: 0.825em;
+  margin-left: 60px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+.Apierror {
+  color: #db2269;
+  font-weight: 600;
+  font-size: 1em;
+  margin-left: 30px;
+}
