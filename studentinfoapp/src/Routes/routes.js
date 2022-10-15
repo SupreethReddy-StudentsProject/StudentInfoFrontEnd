@@ -22,6 +22,7 @@ const AppRoutes = (props) => {
         <Route path="/UpdateStudent" element={<UpdateStudent />} />
         <Route path="/DeleteStudent" element={<RemoveStudent />} />
         <Route path="/DeleteConfirmation" element={<DeleteConfirm />} />
+        <Route path="" element={<Home />} />
       </Routes>
     </div>
   );

@@ -1,7 +1,7 @@
 {
   "name": "studentinfoapp",
   "version": "0.1.0",
-  "homepage": "https://supreethreddy.github.io/StudentInfoFrontEnd",
+  "homepage": "https://supreethreddy.github.io/info-zphs",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free-solid": "^5.0.13",
