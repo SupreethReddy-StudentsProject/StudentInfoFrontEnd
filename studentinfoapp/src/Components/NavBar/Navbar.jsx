@@ -4,10 +4,10 @@ import "./NavbarStyle.css";
 
 const Navbar = (props) => {
   const navigate = useNavigate();
-  const { Login, SetLogin } = props;
+  const { Login, UpdateLogin } = props;
   const logoutfn = () => {
     navigate("/LogIn");
-    SetLogin(false);
+    UpdateLogin(false);
     Cookies.remove("Jwt");
   };
   return (
