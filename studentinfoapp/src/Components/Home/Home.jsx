@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 import "./home.css";
-import homeimage from "./Homeimage.png";
+import homeimage from "./Homeimage.jpg";
 
 const Home = (props) => {
   const { Login } = props;
 
   return (
-    <>
+    <div>
       {Login ? (
         <div className="homecomponent">
           <ul>
@@ -88,7 +88,7 @@ const Home = (props) => {
           </div>
         </div>
       )}
-    </>
+    </div>
   );
 };
 
